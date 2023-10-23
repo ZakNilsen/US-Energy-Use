@@ -1,0 +1,29 @@
+{
+    "name": "dynamic-webserver",
+    "version": "0.0.0",
+    "description": "Dynamic Web Server using Node JS",
+    "author": {
+        "name": "Anshul Bharath",
+        "email": "Anshul.Bharath@gmail.com"
+    },
+    "contributors": [
+        {
+            "name": "Tseng Yang",
+            "email": "yang5442@stthomas.edu"
+        },
+        {
+            "name": "Zak Nilsen",
+            "email": "nils8354@stthomas.edu"
+        }
+    ],
+    "main": "server.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anshulBharath/UST-WebDev-DynamicServer"
+    },
+    "dependencies": {
+        "chart.js": "^3.6.0",
+        "express": "^4.17.1",
+        "sqlite3": "^5.0.2"
+    }
+}

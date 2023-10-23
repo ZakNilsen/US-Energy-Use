@@ -1,0 +1,108 @@
+/* Custom CSS Rules */
+
+/*html { overflow-y: scroll; overflow-x:hidden; }*/
+/*body { position: absolute; }*/
+
+.navbar button{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar-home {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar-span a {
+    font-size:1.25em;
+}
+
+.energy-table-scroll {
+    width: max-width;
+    height: 700px;
+    display: block;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.table-scroll {
+    width: max-width;
+    display: block;
+    height: 700px;
+    overflow-y: auto;
+}
+
+td {
+    text-align: center;
+}
+
+table th:first-child {
+    position: sticky;
+    left: 0;
+}
+
+table th { 
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.year-column {
+    position: sticky;
+    left: 0;
+    background: white;
+    font-weight: bold;
+}
+
+.button-style{
+    background-color: #F1F1F1F1;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 30px;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.button-style:hover {
+    background-color: rgb(0 0 0 / 20%);
+}
+
+.state-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+    height: 30rem;
+    object-fit: scale-down;
+}
+
+.button-align{
+    text-align: center;
+    margin:20px;
+}
+
+.custom-dropdown {
+    height: 500px;
+    overflow-y: auto;
+}
+
+hr {
+    text-align: left;
+}
+.page-images {
+    border-style:solid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.home-labels {
+    text-align: center;
+    font-weight: bold;
+}
+
